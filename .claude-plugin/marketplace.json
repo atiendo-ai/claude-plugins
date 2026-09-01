@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "atiendo",
+  "description": "Plugins de Atiendo para agentes de código: skills sobre la API pública, el servidor MCP y los webhooks de postllamada",
+  "owner": {
+    "name": "Atiendo",
+    "url": "https://atiendo.ai"
+  },
+  "plugins": [
+    {
+      "name": "atiendo",
+      "description": "Crea, configura y publica agentes de voz de Atiendo desde tu asistente, y escribe integraciones contra su API pública",
+      "category": "development",
+      "source": "./plugins/atiendo",
+      "homepage": "https://atiendo.ai/mcp"
+    }
+  ]
+}

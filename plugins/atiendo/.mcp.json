@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "atiendo": {
+      "type": "http",
+      "url": "https://api.atiendo.ai/mcp"
+    }
+  }
+}
