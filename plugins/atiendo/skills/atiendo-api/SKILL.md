@@ -5,7 +5,7 @@ description: Call the Atiendo public REST API v1 correctly, including authentica
 
 # Atiendo: the public API v1
 
-Base URL: `https://api.atiendo.ai` (staging: `https://api-staging.atiendo.ai`).
+Base URL: `https://api.atiendo.ai`.
 The full OpenAPI document is at `/docs/json` and covers every served operation.
 Fetch it rather than guessing a path.
 

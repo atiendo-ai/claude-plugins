@@ -1,12 +1,20 @@
 {
   "name": "atiendo",
   "description": "Atiendo: agentes de voz que cogen el teléfono. Skills sobre la API pública v1, el servidor MCP y los webhooks de postllamada",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Atiendo",
     "url": "https://atiendo.ai"
   },
   "homepage": "https://atiendo.ai/mcp",
   "repository": "https://github.com/atiendo-ai/claude-plugins",
-  "keywords": ["atiendo", "voice", "agents", "telephony", "mcp", "webhooks"]
+  "keywords": [
+    "atiendo",
+    "voice",
+    "agents",
+    "telephony",
+    "mcp",
+    "webhooks"
+  ],
+  "license": "MIT"
 }

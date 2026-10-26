@@ -39,8 +39,9 @@ Mientras tanto:
 - **Las skills funcionan igual**, sin autenticación y sin MCP. Son la mayor
   parte del valor del plugin.
 - **Para conectar el MCP** usa la aplicación de escritorio o la web del
-  asistente, donde sí se puede pegar un `client_id`: está en el panel, en
-  Integraciones → Aplicaciones conectadas, botón «Conectar asistente».
+  asistente (Claude, ChatGPT o Gemini), donde sí se puede pegar un
+  `client_id`: está en el panel, en Integraciones → Aplicaciones conectadas,
+  botón «Conectar asistente».
 
 Cuando se decida abrir DCR, este fichero empieza a funcionar solo y no hay nada
 que cambiar aquí.
@@ -72,5 +73,10 @@ Editar una skill:
 Antes de publicar una versión, `node scripts/sync-skills.mjs --check` falla si
 alguien editó la copia del plugin a mano en vez de editar la fuente.
 
-Mientras `atiendo.ai` siga con basic auth, el script necesita credenciales por
-entorno (`ATIENDO_WEB_USER`, `ATIENDO_WEB_PASS`); nunca en el repo.
+`atiendo.ai` es público desde el 26 de octubre de 2026, así que el script ya no
+necesita credenciales. Si algún día vuelve a cerrarse, las lee del entorno
+(`ATIENDO_WEB_USER`, `ATIENDO_WEB_PASS`), nunca del repo.
+
+## Licencia
+
+MIT. Ver [LICENSE](LICENSE).
